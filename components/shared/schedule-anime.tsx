@@ -9,11 +9,8 @@ import date from "date-and-time";
 import Link from "next/link";
 import { ScheduleAnimeTypes } from "@/types";
 
-const primaryUrl =
-  process.env.NODE_ENV !== "production"
-    ? "http://localhost:4000"
-    : process.env.NEXT_PUBLIC_ANIME_URL;
-const backupUrl = "https://api-aniwatch.onrender.com";
+const primaryUrl = process.env.NEXT_PUBLIC_ANIME_URL;
+const backupUrl = "https://aniwatch-api-theta.vercel.app";
 
 const ScheduleAnime = () => {
   const now = useMemo(() => new Date(), [])

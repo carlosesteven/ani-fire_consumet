@@ -4,7 +4,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
 export const animeApi = createApi({
     reducerPath: 'api',
     baseQuery: fetchBaseQuery({
-        baseUrl: process.env.NODE_ENV === "production" ? process.env.NEXT_PUBLIC_ANIME_URL : 'http://localhost:4000' ,
+        baseUrl: process.env.NEXT_PUBLIC_ANIME_URL,
     }),
     endpoints: (builder) => ({
         getAnimeStreamingEpisode: builder.query<AnimeStreamingProp, { id: string, server: string, category: string }>({

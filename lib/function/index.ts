@@ -14,11 +14,8 @@ import { z } from "zod";
 import { comment } from "@/actions/comment";
 import { commentsCount, getComments } from "@/actions/get-comments";
 
-const primaryUrl =
-  process.env.NODE_ENV !== "production"
-    ? "http://localhost:4000"
-    : process.env.NEXT_PUBLIC_ANIME_URL;
-const backupUrl = "https://api-aniwatch.onrender.com";
+const primaryUrl = process.env.NEXT_PUBLIC_ANIME_URL;
+const backupUrl = "https://aniwatch-api-theta.vercel.app";
 
 export async function getAllAnime() {
   try {
