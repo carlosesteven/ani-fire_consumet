@@ -104,9 +104,11 @@ export const genreList = [
 ]
 
 export const headerItems = [
-  { name: "About", href: "/" },
-  { name: "Community", href: "/community" },
-  { name: "Watchlist", href: "/watchlist"},
+  { name: "ABOUT", href: "/" },
+  { name: "CSC LAB", href: "https://csc-lab.xyz/", target: "_blank"},
+  { name: "SUPPORT", href: "mailto:soporte@csc-lab.xyz", target: "_blank"},
+  // { name: "Community", href: "/community" },
+  // { name: "Watchlist", href: "/watchlist"},
 ]
 
 export const URI = process.env.NODE_ENV !== "production" ? 'http://localhost:3000' : 'https://ani-fire.vercel.app'

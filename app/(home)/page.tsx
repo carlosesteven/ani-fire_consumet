@@ -17,10 +17,9 @@ const Home = () => {
   return (
     <div className="w-full h-auto max-w-[1220px] my-4 mx-auto xl:px-0 sm:px-4 px-2">
       <div className="flex gap-x-0 items-end">
-        <img src="/assets/nav.png" alt="logo" width={80} height={72} />
         <p className="text-6xl font-logo text-secondary-foreground dark:text-white leading-none">
-          Anime
-          <span className="text-[#FF003D]">Cast</span>
+           Web Anime 
+          <span className="text-[#FF003D]"> Cast</span>
         </p>
       </div>
 
