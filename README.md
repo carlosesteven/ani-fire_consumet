@@ -70,7 +70,7 @@
 
 - Clone the repository.
   ```bash
-  git clone https://github.com/Zeddxx/ani-fire.git
+  git clone https://github.com/carlosesteven/ani-fire_consumet.git
   ```
 
 - Install the npm or yarn or pnpm.
