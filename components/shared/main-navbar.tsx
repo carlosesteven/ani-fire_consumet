@@ -33,7 +33,7 @@ const MainNavbar = () => {
 
             <Link href="/home">
               <img
-                src="/assets/nav.gif"
+                src="/assets/nav.png"
                 alt="logo"
                 loading="eager"
                 height={56}

@@ -9,16 +9,18 @@ import { SearchIcon } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
+import AppsSection from "@/components/AppsSection";
+
 const Home = () => {
   const [query, setQuery] = useState<string>("");
 
   return (
     <div className="w-full h-auto max-w-[1220px] my-4 mx-auto xl:px-0 sm:px-4 px-2">
       <div className="flex gap-x-0 items-end">
-        <img src="/assets/nav.gif" alt="logo" width={80} height={72} />
+        <img src="/assets/nav.png" alt="logo" width={80} height={72} />
         <p className="text-6xl font-logo text-secondary-foreground dark:text-white leading-none">
-          ani
-          <span className="text-[#FF003D]">fire</span>
+          Anime
+          <span className="text-[#FF003D]">Cast</span>
         </p>
       </div>
 
@@ -43,7 +45,7 @@ const Home = () => {
           </div>
           <div className="flex w-full">
             <p>
-              <span className="font-medium mr-2 dark:text-primary-foreground text-secondary-foreground">Top search:</span>
+              <span className="font-medium mr-2 dark:text-primary-foreground text-secondary-foreground">1 Top search:</span>
                   {TopSearchItems.map((item, index) => (
                     <Link key={item.name + index} href={item.href} className="hover:text-primary duration-300 text-base">
                       {item.name}{', '}
@@ -61,7 +63,7 @@ const Home = () => {
 
         <div className="relative hidden lg:block h-[30vw] max-h-72 max-w-[34rem] min-w-[26rem] w-[60vw]">
           <img
-            src="/assets/nav.gif"
+            src="/assets/nav.png"
             alt="hinata shoyo"
             className="h-full w-full object-contain"
           />
@@ -69,11 +71,12 @@ const Home = () => {
       </div>
 
       <div className="my-8">
-        <h2 className="text-2xl text-pretty text-secondary-foreground dark:text-primary-foreground font-semibold">AniFire: A website designed exclusively for educational purposes, with no intention of generating revenue or any other commercial pursuits.</h2>
+        <h2 className="text-2xl text-pretty text-secondary-foreground dark:text-primary-foreground font-semibold">Web Anime Cast: A website designed exclusively for educational purposes, with no intention of generating revenue or any other commercial pursuits.</h2>
         <p className="text-muted-foreground text-sm">
-          This website is ad-free and created by an independent developer. Its intended audience is solely for my developer portfolio. If you accessed this site through word-of-mouth, I kindly request you to exit. Thank you for your understanding.
+          1 This website is ad-free and created by an independent developer. Its intended audience is solely for my developer portfolio. If you accessed this site through word-of-mouth, I kindly request you to exit. Thank you for your understanding.
         </p>
       </div>
+      <AppsSection />
     </div>
   );
 };
