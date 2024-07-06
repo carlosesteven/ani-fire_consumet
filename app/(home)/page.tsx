@@ -18,8 +18,7 @@ const Home = () => {
     <div className="w-full h-auto max-w-[1220px] my-4 mx-auto xl:px-0 sm:px-4 px-2">
       <div className="flex gap-x-0 items-end">
         <p className="text-6xl font-logo text-secondary-foreground dark:text-white leading-none">
-           Web Anime 
-          <span className="text-[#FF003D]"> Cast</span>
+           Web <span className="text-[#FF003D]">Anime Cast</span>
         </p>
       </div>
 
@@ -68,13 +67,7 @@ const Home = () => {
           />
         </div>
       </div>
-
-      <div className="my-8">
-        <h2 className="text-2xl text-pretty text-secondary-foreground dark:text-primary-foreground font-semibold">Web Anime Cast: A website designed exclusively for educational purposes, with no intention of generating revenue or any other commercial pursuits.</h2>
-        <p className="text-muted-foreground text-sm">
-          1 This website is ad-free and created by an independent developer. Its intended audience is solely for my developer portfolio. If you accessed this site through word-of-mouth, I kindly request you to exit. Thank you for your understanding.
-        </p>
-      </div>
+      
       <AppsSection />
     </div>
   );
