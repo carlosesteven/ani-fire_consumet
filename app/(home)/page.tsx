@@ -9,7 +9,7 @@ import { SearchIcon } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
-import AppsSection from "@/components/AppsSection";
+import AppsSection from "@/components/our-apps";
 
 const Home = () => {
   const [query, setQuery] = useState<string>("");
