@@ -52,7 +52,7 @@ const Home = () => {
             </p>
           </div>
 
-      <Button asChild className="w-full rounded-none mt-4 font-weight-bold">
+      <Button asChild className="w-full rounded-lg mt-4 font-weight-bold">
         <Link href="/home">
           Visit full site
         </Link>
@@ -75,28 +75,28 @@ const Home = () => {
             <img src="/assets/Apps/animecast.png" alt="Anime Cast" className="w-full h-auto rounded-lg mb-4" />
             <p>Te permite disfrutar de tus animes favoritos desde la comodidad de tu móvil, permitiendo de manera fácil y sencilla estar al día con los últimos lanzamientos.</p>
             <a href="https://animecast.xyz/download" target="_blank">  
-              <button className="mt-4 py-2 px-4 bg-white text-gray-800 rounded-lg">Descargar</button>
+              <button className="mt-4 py-2 px-4 bg-white text-gray-800 rounded-lg form-control mt-2 font-weight-bold">Descargar</button>
             </a>
           </div>
           <div className="app-card bg-gray-800 text-white rounded-lg p-6 m-4 w-64">
             <img src="/assets/Apps/mangacast.png" alt="Manga Cast" className="w-full h-auto rounded-lg mb-4" />
             <p>Te permite disfrutar de tus mangas favoritos desde la comodidad de tu móvil, permitiendo de manera fácil y sencilla estar al día con los últimos lanzamientos.</p>
             <a href="https://manga-cast.com/download" target="_blank">  
-              <button className="mt-4 py-2 px-4 bg-white text-gray-800 rounded-lg">Descargar</button>
+              <button className="mt-4 py-2 px-4 bg-white text-gray-800 rounded-lg form-control mt-2 font-weight-bold">Descargar</button>
             </a>
           </div>
           <div className="app-card bg-gray-800 text-white rounded-lg p-6 m-4 w-64">
             <img src="/assets/Apps/hentaicast.png" alt="Hentai Cast" className="w-full h-auto rounded-lg mb-4" />
             <p>Te permite disfrutar de tus hentais favoritos desde la comodidad de tu móvil, permitiendo de manera fácil y sencilla estar al día con los últimos lanzamientos.</p>
             <a href="https://hentaicast.com/download" target="_blank">  
-              <button className="mt-4 py-2 px-4 bg-white text-gray-800 rounded-lg">Descargar</button>
+              <button className="mt-4 py-2 px-4 bg-white text-gray-800 rounded-lg form-control mt-2 font-weight-bold">Descargar</button>
             </a>
           </div>
           <div className="app-card bg-gray-800 text-white rounded-lg p-6 m-4 w-64">
             <img src="/assets/Apps/doramacast.png" alt="Dorama Cast" className="w-full h-auto rounded-lg mb-4" />
             <p>Te permite disfrutar de tus doramas favoritos desde la comodidad de tu móvil, permitiendo de manera fácil y sencilla estar al día con los últimos lanzamientos.</p>
             <a href="https://doramacast.csc-lab.xyz/download" target="_blank">  
-              <button className="mt-4 py-2 px-4 bg-white text-gray-800 rounded-lg">Descargar</button>
+              <button className="mt-4 py-2 px-4 bg-white text-gray-800 rounded-lg form-control mt-2 font-weight-bold">Descargar</button>
             </a>      
           </div>
         </div>
