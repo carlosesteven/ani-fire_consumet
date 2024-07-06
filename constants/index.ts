@@ -57,7 +57,7 @@ export const MainNavbarItems = [
   { name: "OVAs", href: "/anime/ova" },
   { name: "ONAs", href: "/anime/ona" },
   { name: "Specials", href: "/anime/special" },
-  { name: "Events", href: "/anime/events" },
+  //{ name: "Events", href: "/anime/events" },
 ];
 
 export const genreList = [
