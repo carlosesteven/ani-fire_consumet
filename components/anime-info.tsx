@@ -152,8 +152,8 @@ const AnimeInfo = ({
             </p>
 
             <div className="flex flex-wrap gap-3">
-              <span className="text-sm text-secondary-foreground dark:text-primary-foreground">
-                Genre :
+              <span className="font-medium">
+                Genres:
               </span>{" "}
               {data.anime.moreInfo.genres.map((genre) => (
                 <Badge
