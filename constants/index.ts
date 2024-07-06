@@ -33,10 +33,7 @@ export const MenuItems = [
 export const TopSearchItems = [
   { name: "Solo Leveling", href: "/search?keyword=solo leveling&page=1" },
   { name: "One Piece", href: "/search?keyword=one piece&page=1" },
-  {
-    name: "Jujutsu Kaisen 2nd Season",
-    href: "/search?keyword=jujutsu kaisen&page=1",
-  },
+  { name: "Jujutsu Kaisen", href: "/search?keyword=jujutsu kaisen&page=1" },
   { name: "Blue Exorcist: Shimane Illuminati Saga", href: "/search?keyword=blue exorcist&page=1" },
   { name: "Domestic Kanojo", href: "/search?keyword=domestic kanojo&page=1" },
   { name: "Demon Slayer", href: "/search?keyword=demon slayer&page=1" },
