@@ -151,8 +151,6 @@ const AnimeInfo = ({
               {data?.anime.moreInfo.status}
             </p>
 
-            <Separator />
-
             <div className="flex flex-wrap gap-3">
               <span className="text-sm text-secondary-foreground dark:text-primary-foreground">
                 Genre :
@@ -167,7 +165,6 @@ const AnimeInfo = ({
                 </Badge>
               ))}
             </div>
-            <Separator />
 
             <p>
               <span>Studio: </span>
