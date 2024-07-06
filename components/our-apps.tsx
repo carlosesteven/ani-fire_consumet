@@ -36,37 +36,37 @@ const AppsSection = () => {
       </div>
       <style jsx>{`
         .apps-section {
-        text-align: center;
-        padding: 10px;
+            text-align: center;
+            padding: 10px;
         }
         .apps-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 20px;
-        justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            justify-content: center;
         }
         .app-card {
-        background: #333;
-        color: #fff;
-        border-radius: 8px;
-        padding: 20px;
-        text-align: center;
+            background: #333;
+            color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
         }
         .app-card img {
-        width: 100%;
-        border-radius: 8px;
+            width: 100%;
+            border-radius: 8px;
         }
         .app-card button {
-        margin-top: 10px;
-        padding: 10px;
-        background: #fff;
-        color: #333;
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
+            margin-top: 10px;
+            padding: 10px;
+            background: #fff;
+            color: #333;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
         }
         .app-card button:hover {
-        background: #ccc;
+            background: #ccc;
         }
       `}</style>
     </div>
