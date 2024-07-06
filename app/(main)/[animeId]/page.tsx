@@ -70,9 +70,11 @@ const AnimePage = ({ params, searchParams }: InfoPageProps) => {
         ))}
       </div>
 
-      {params.animeId && (
+      {/*
+      params.animeId && (
         <CommentSection id={params.animeId} anime={data?.anime.info.name!} />
-      )}
+      )
+      */}
 
       <div className="max-w-screen-2xl flex xl:flex-row flex-col gap-x-4 px-4 mx-auto w-full my-10 h-auto">
         <div className="w-full h-auto">
