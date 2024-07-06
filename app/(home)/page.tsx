@@ -30,7 +30,7 @@ const Home = () => {
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="One piece"
+              placeholder="Search: Anime Name"
             />
             <Button
               asChild
@@ -43,7 +43,7 @@ const Home = () => {
           </div>
           <div className="flex w-full">
             <p>
-              <span className="font-medium mr-2 dark:text-primary-foreground text-secondary-foreground">1 Top search:</span>
+              <span className="font-medium mr-2 dark:text-primary-foreground text-secondary-foreground font-weight-bold">Top Search:</span>
                   {TopSearchItems.map((item, index) => (
                     <Link key={item.name + index} href={item.href} className="hover:text-primary duration-300 text-base">
                       {item.name}{', '}
@@ -52,7 +52,7 @@ const Home = () => {
             </p>
           </div>
 
-      <Button asChild className="w-full rounded-none mt-3">
+      <Button asChild className="w-full rounded-none mt-4 font-weight-bold">
         <Link href="/home">
           Visit full site
         </Link>
