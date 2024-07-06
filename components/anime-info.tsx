@@ -167,12 +167,12 @@ const AnimeInfo = ({
             </div>
 
             <p>
-              <span>Studio: </span>
+              <span className="font-medium">Studio: </span>
               {data.anime.moreInfo.studios?.split(",").join(", ")}
             </p>
 
             <p>
-              <span>Producers: </span>
+              <span className="font-medium">Producers: </span>
               {data.anime.moreInfo.producers}
             </p>
           </div>
