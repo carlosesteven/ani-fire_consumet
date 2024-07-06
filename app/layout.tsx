@@ -19,8 +19,8 @@ const logoFont = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'web animecast csc lab',
-  description: 'Anifire is a anime streaming free website where you can watch any anime for free with-out any ads and popups.',
+  title: 'AnimeCast - Web Version',
+  description: 'Anime Cast allow you to enjoy of your favorite animes from the comfort of your mobile, allowing you to be up to date with all the latest releases',
 }
 
 export default function RootLayout({
